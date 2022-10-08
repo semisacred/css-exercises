@@ -20,6 +20,20 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.modal-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .icon {
@@ -51,6 +65,8 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin-top: 16px;
+
 }
 
 button.continue {
